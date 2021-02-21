@@ -339,9 +339,10 @@ kick_user(msg.sender_user_id_, msg.chat_id_)
 end
 if msg.content_.members_[0].id_ == our_id and redis:get(dany..':WELCOME_BOT') then
 SUDO_USER = redis:hgetall(dany..'username:'..SUDO_ID).username
-sendPhoto(msg.chat_id_,msg.id_,redis:get(dany..':WELCOME_BOT'),[[•~مـرحبآ آنآ بوت آسـمـي ]]..redis:get(dany..':NameBot:')..[[•~آختصـآصـي حمـآيه‌‏ آلمـجمـوعآت
-•~ مـن آلسـبآم وآلتوجيه وآلتكرآر وآلخ...
-.®️مـعرف آلمـطـور  : ]]..SUDO_USER:gsub([[\_]],'_')..[[🌿
+sendPhoto(msg.chat_id_,msg.id_,redis:get(dany..':WELCOME_BOT'),[[• مرحباً انا بوت ]]..redis:get(dany..':NameBot:')..[[ .
+• اختـصاصـي حمايـة الـمجموعات
+• تأكد من رفعـك للبـوت مشـرف في مجموعـتك واكتب تفعـيل 
+. مـعرف المطور  :]]..SUDO_USER:gsub([[\_]],'_')..[[ .
 ]])
 return false
 end
