@@ -1863,7 +1863,7 @@ return false
 end
 
 if MsgText[1] == 'اصدار السورس' or MsgText[1] == 'الاصدار' then
-return '⋆اصدار سورس بلانك : *v'..version..'* \n'
+return '⋆اصدار سورس مِـيـلَان : *v'..version..'* \n'
 end
 
 
@@ -1898,7 +1898,7 @@ else
 sendMsg(msg.chat_id_,msg.id_,"⋆** عذراً النسخه الاحتياطيه هذا ليست للبوت » ["..Bot_User.."]  \n")
 end
 else 
-sendMsg(msg.chat_id_,msg.id_,'⋆** عذراً اسم الملف غير مدعوم للنظام او لا يتوافق مع سورس بلانك يرجاء جلب الملف الاصلي الذي قمت بسحبه وبدون تعديل ع الاسم\n')
+sendMsg(msg.chat_id_,msg.id_,'⋆** عذراً اسم الملف غير مدعوم للنظام او لا يتوافق مع سورس دانـي يرجاء جلب الملف الاصلي الذي قمت بسحبه وبدون تعديل ع الاسم\n')
 end  
 else
 sendMsg(msg.chat_id_,msg.id_,'⋆** عذراً الملف ليس بصيغه Json !?\n')
@@ -2101,8 +2101,8 @@ return [[
 ⌯︙ م3 «» اوامر الحماية‌‏
 ⌯︙ م4 «» اوامر الخدمه 
 ⌯︙ م5 «»  اوامر المطور
-⌯︙ .[قـنـاه الـسـورس](t.me/UU_DANY) 
-⌯︙ [ مـطـور الـسـورس ](t.me/UU_IV)
+⌯︙ .[قـنـاه الـسـورس](t.me/SourceMilan) 
+⌯︙ [ مـطـور الـسـورس ](t.me/VV_0M)
 ܀⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤܀
 ⌯︙ ** لـلإسـتـفـسـار ↤︎ ]]..SUDO_USER
 end
@@ -2318,7 +2318,7 @@ end
 if MsgText[1] == "معلومات الكيبورد" or MsgText[1]=="/help" then
 return [[
 𓆩 اهلا بك في بلانك
-⋆  ━━━  𝙿𝙻𝙰𝙽𝙺  ━━━ ⋆ 
+⋆  ━━━  بلانك  ━━━ ⋆ 
 مرحبا بك مطوري سأشرح لك كل شئ في لوحه الاوامر بالتفصيل
 1• الاحصائيات { لعرض عدد المجموعات، والمشتركين في البوت
  2• تفعيل التواصل{ لتفعيل التواصل عبر البوت خاص بك} 
@@ -2338,18 +2338,19 @@ return [[
 18• جلب نسخه احتياطيه { لعرض ملف المجموعات بوتك }
 19• تحديث السورس { لتحديث السورس خاص بوتك 
 20• الغاء { للغاء الامر الذي طلبته }
-⋆  ━━━  𝙿𝙻𝙰𝙽𝙺  ━━━ ⋆ 
+⋆  ━━━  بلانك  ━━━ ⋆ 
 ]]
 end
 
 if MsgText[1] == "السورس" or MsgText[1]=="سورس" then
 return [[
-⋆  ━━━  𝙿𝙻𝙰𝙽𝙺  ━━━ ⋆
+  ━━━  𝙿𝙻𝙰𝙽𝙺  ━━━ ⋆
 [• 𝙼𝙾𝙰𝚃𝙰𝚉](https://t.me/UUIIID) 💌 .
 [• 𝙼𝙰𝙽𝙳𝙾](https://t.me/MaaaaNdo) 💌 .
 [• 𝚂𝙰𝚈𝚃𝚁𝙰](https://t.me/IUlUJ) 💌 .
 [• 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝙻𝙰𝙽𝙺](https://t.me/Sc_plank) 💌 .
 ⋆  ━━━  𝙿𝙻𝙰𝙽𝙺  ━━━ ⋆
+]]
 end
 
 if MsgText[1] == "التاريخ" then
@@ -3933,12 +3934,25 @@ return sendMsg(msg.chat_id_,msg.id_,dr[math.random(#dr)])
 elseif not msg.SudoUser and Text==" بوت" or Text == "بوت" then
 return 
 sendMsg(msg.chat_id_,msg.id_,nnn[math.random(#nnn)]) 
-elseif Text== "معتز" or Text== "وزه" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس بلانك↯](https://t.me/UUIIID)")
+elseif Text== "سيطره" or Text== "احمد" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس بلانك↯](https://t.me/IUlUJ)")
 elseif Text== "مينا" or Text== "ماندو" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس بلانك↯](https://t.me/MaaaaNdo)")
 elseif Text== "سيطره" or Text== "احمد" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس بلانك↯](https://t.me/IUlUJ)")
+elseif Text== "فارس" or Text== "بوت حذف" then return  sendMsg(msg.chat_id_,msg.id_,"[الحمدلله يبرو انت اي الاخبار](https://t.me/DTeLebot)")
 elseif Text== "رفع غبي"  then return sendMsg(msg.chat_id_,msg.id_,"⋆أهلاً عزيزي\n⋆تم رفع الغبي بنجاح↯\n⋆تمت إضافته إلى قائمه الأغبياء\n☆")
 elseif Text== "تنزيل غبي"  then return sendMsg(msg.chat_id_,msg.id_,"⋆أهلاً عزيزي\n⋆تم تنزيل الغبي بنجاح↯\n⋆تمت الزاله من قائمه الأغبياء\n☆")
 elseif Text== "رفع كلب"  then return sendMsg(msg.chat_id_,msg.id_,"⋆أهلاً عزيزي\n⋆تم رفع الكلب بنجاح↯\n⋆تمت إضافته إلى قائمه الكلاب\n☆")
+elseif Text== "رفع شاذ"  then return sendMsg(msg.chat_id_,msg.id_,"⌯ اهـلاً عـزيـزي\n⌯ تم رفع الشاذ بنجاح \n⌯ الان هو في قائمه الشواذ\n︎༆︎")
+elseif Text== "تنزيل شاذ"  then return sendMsg(msg.chat_id_,msg.id_,"⌯ اهـلاً عـزيـزي\n⌯ تـم تنزيل شاذ بنجاح \n⌯ الان تم ازلته من قائمه الشواذ\n︎༆︎")
+elseif Text== "رفع فقلب معتز"  then return sendMsg(msg.chat_id_,msg.id_,"⌯ اهـلاً عـزيـزي\n︎⌯ تـم رفع الكراش فقلب معتز بنجاح\n⌯ الان هو في قائمه كرشات معتز \n︎༆︎")
+elseif Text== "تنزيل من قلب معتز"  then return sendMsg(msg.chat_id_,msg.id_,"⌯ اهـلاً عـزيـزي\n⌯ تـم التنزيل من قلب معتز بنجاح \n⌯ الان تم ازلته من قائمه كرشات معتز\n︎༆︎")
+elseif Text== "رفع اخويا"  then return sendMsg(msg.chat_id_,msg.id_,"⌯ اهـلاً عـزيـزي\n︎⌯ تـم رفع الاخ بنجاح\n⌯ الان هو في قائمه الاخ الجدع ملوش مرتجع \n︎༆︎")
+elseif Text== "تنزيل اخويا"  then return sendMsg(msg.chat_id_,msg.id_,"⌯ اهـلاً عـزيـزي\n⌯ تـم تنزيل الاخ بنجاح \n⌯ الان تم ازلته من قائمه الاخ الجدع ملوش مرتجع \n︎༆︎")
+elseif Text== "رفع مطور قلبي"  then return sendMsg(msg.chat_id_,msg.id_,"⌯ اهـلاً عـزيـزي\n︎⌯ تـم رفع المطور فقلبك بنجاح\n⌯ الان هو في قائمه مطورين القلوب \n︎༆︎")
+elseif Text== "تنزيل مطور قلبي"  then return sendMsg(msg.chat_id_,msg.id_,"⌯ اهـلاً عـزيـزي\n⌯ تـم تنزيل المطور من قلبك بنجاح \n⌯ الان تم ازلته من قائمه مطورين القلوب \n︎༆︎")
+elseif Text== "رفع مطور سورس"  then return sendMsg(msg.chat_id_,msg.id_,"⌯ اهـلاً عـزيـزي\n︎⌯ تـم رفع المطور بنجاح\n⌯ الان هو في قائمه مطورين السورس \n︎༆︎")
+elseif Text== "تنزيل مطور سورس"  then return sendMsg(msg.chat_id_,msg.id_,"⌯ اهـلاً عـزيـزي\n⌯ تـم تنزيل المطور بنجاح \n⌯ الان تم ازلته من قائمه مطورين السورس \n︎༆︎")
+elseif Text== "رفع بيست"  then return sendMsg(msg.chat_id_,msg.id_,"⌯ أهـلاً عـزيـزي\n⌯ تـم رفع بيست بنجاح↯\n⌯ الان هي بيست يمكنك اخد مح\n︎༆︎")
+elseif Text== "تنزيل بيست"  then return sendMsg(msg.chat_id_,msg.id_,"⌯ أهـلاً عـزيـزي\n⌯  تـم تنزيل البيست بنجاح↯\n⌯ يمكن استرجاع المح الان\n︎༆︎")
 elseif Text== "رفع حمار"  then return sendMsg(msg.chat_id_,msg.id_,"⋆أهلاً عزيزي\n⋆تم رفع الحمار بنجاح↯\n⋆تمت إضافته إلى قائمه الحمير\n☆")
 elseif Text== "تنزيل حمار"  then return sendMsg(msg.chat_id_,msg.id_,"⋆أهلاً عزيزي\n⋆تم تنزيل الحمار بنجاح↯\n⋆تمت ازالته من قائمه الحمير\n☆")
 elseif Text== "تنزيل كلب"  then return sendMsg(msg.chat_id_,msg.id_,"⋆أهلاً عزيزي \n⋆تم تنزيل الكلب بنجاح↯\n⋆تمت إزالته من قائمه الكلاب\n☆")
@@ -3959,9 +3973,8 @@ elseif Text:match(Bot_Name.."كيفك") then
   return sendMsg(msg.chat_id_,msg.id_,"بخير يقلبي ونت .")
   elseif Text== "ياتي"  then return sendMsg(msg.chat_id_,msg.id_,"بتكسف يووه.")
   elseif Text== "احبك."  then return sendMsg(msg.chat_id_,msg.id_,"مش اكتر مني ")
-  elseif Text== "احبك"  then return sendMsg(msg.chat_id_,msg.id_,"ياتي")
   elseif Text== "يحلو"  then return sendMsg(msg.chat_id_,msg.id_,"اي يقلبي")
-  elseif Text== "كسمك"  then return sendMsg(msg.chat_id_,msg.id_,"عيب.")
+  elseif Text== "كسمك"  then return sendMsg(msg.chat_id_,msg.id_,"عيب يعم.")
   elseif Text== "مخنوق"  then  return sendMsg(msg.chat_id_,msg.id_,"اقرء قرأن."  )
   elseif Text== "مرحبا"  then return sendMsg(msg.chat_id_,msg.id_,"اهلاً عزيزي .")
   elseif Text== "ارض زيكولا"  then return sendMsg(msg.chat_id_,msg.id_,"[ارض زيكولا  𖡼](https://t.me/UU_NOVEL/3.")
@@ -3999,7 +4012,7 @@ elseif Text:match(Bot_Name.."كيفك") then
   elseif Text== "ورده" or Text== "وردة" then return sendMsg(msg.chat_id_,msg.id_,"انت عطرها")
   elseif Text== "اسمك اي"  then return sendMsg(msg.chat_id_,msg.id_,"أعمي انت صح؟")
   elseif Text== "حبيبي" or Text=="حبي" then return  sendMsg(msg.chat_id_,msg.id_,"امـر يقلبي")
-  elseif Text== "حبيبتي" then return sendMsg(msg.chat_id_,msg.id_,"ف الخـاص مش هنا هنا ")
+  elseif Text== "حبيبتي" then return sendMsg(msg.chat_id_,msg.id_,"ف الخـاص مش هنا ")
   elseif Text== "حياتي" then return sendMsg(msg.chat_id_,msg.id_,"اي يروح حياتك")
   elseif Text== "عمري" then return sendMsg(msg.chat_id_,msg.id_,"يحمي عممرك")
   elseif Text== "اسكت" then return sendMsg(msg.chat_id_,msg.id_,"اوك")
@@ -4024,28 +4037,28 @@ elseif Text:match(Bot_Name.."كيفك") then
   --=====================================
 elseif Text== "انا مين" or Text== "مين انا"  then
 if msg.SudoUser then  
-return sendMsg(msg.chat_id_,msg.id_,"[انت مطوري الغالي ♕](https://t.me/Sc_plank) ")
+return sendMsg(msg.chat_id_,msg.id_,"[انت مطوري الغالي ♕](https://t.me/SourceMilan) ")
 elseif msg.Creator then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت منشئ المجموعه  تاج راسي♔](https://t.me/Sc_plank)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت منشئ المجموعه  تاج راسي♔](https://t.me/SourceMilan)")
 elseif msg.Director then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت مدير المجموعه๑](https://t.me/Sc_plank)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت مدير المجموعه๑](https://t.me/SourceMilan)")
 elseif msg.Admin then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت ادمن شد حيلك♘](https://t.me/Sc_plank)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت ادمن شد حيلك♘](https://t.me/SourceMilan)")
 else 
-return sendMsg(msg.chat_id_,msg.id_,"[مجرد عضو هنا 𖦹](https://t.me/Sc_plank)")
+return sendMsg(msg.chat_id_,msg.id_,"[مجرد عضو هنا 𖦹](https://t.me/SourceMilan)")
 end 
 end 
 elseif Text== "مين ضافني" or Text== "منو ضافني"  then
 if msg.SudoUser then  
-return sendMsg(msg.chat_id_,msg.id_,"[انت مكانك كل مكان يا مطور♕](https://t.me/Sc_plank) ")
+return sendMsg(msg.chat_id_,msg.id_,"[انت مكانك كل مكان يا مطور♕](https://t.me/SourceMilan) ")
 elseif msg.Creator then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت منشئ المجموعه](https://t.me/Sc_plank)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت منشئ المجموعه](https://t.me/SourceMilan)")
 elseif msg.Director then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/Sc_plank)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/SourceMilan)")
 elseif msg.Admin then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/Sc_plank)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/SourceMilan)")
 else 
-return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/Sc_plank)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/SourceMilan)")
 end
 
 
