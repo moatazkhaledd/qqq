@@ -1,10 +1,10 @@
 --[[
 ▇▇▇                                       ▇▇▇               
 ▇▇        ▇                        ▇       ▇▇             
-▇▇          ▇ @KGTBR   ▇         ▇▇            
+▇▇          ▇ @VV_0M  ▇         ▇▇            
 ▇▇             ▇             ▇             ▇▇        
 ▇▇                ▇       ▇                ▇▇      
-▇▇                   ▇▇                    ▇▇     Source  Batsheka BY @KGTBR
+▇▇                   ▇▇                    ▇▇     Source Milan BY @VV_0M
 --]]
 local function games(msg,MsgText)
 if msg.type ~= "pv" then
