@@ -2347,7 +2347,6 @@ return [[
   ⋆ ━━━  𝙿𝙻𝙰𝙽𝙺  ━━━ ⋆
 [• 𝙼𝙾𝙰𝚃𝙰𝚉](https://t.me/UUIIID) 💌 .
 [• 𝙼𝙰𝙽𝙳𝙾](https://t.me/MaaaaNdo) 💌 .
-[• 𝚂𝙰𝚈𝚃𝚁𝙰](https://t.me/IUlUJ) 💌 .
 [• 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝙻𝙰𝙽𝙺](https://t.me/Sc_plank) 💌 .
 ⋆  ━━━  𝙿𝙻𝙰𝙽𝙺  ━━━ ⋆
 ]]
@@ -3934,9 +3933,8 @@ return sendMsg(msg.chat_id_,msg.id_,dr[math.random(#dr)])
 elseif not msg.SudoUser and Text==" بوت" or Text == "بوت" then
 return 
 sendMsg(msg.chat_id_,msg.id_,nnn[math.random(#nnn)]) 
-elseif Text== "سيطره" or Text== "احمد" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس بلانك↯](https://t.me/IUlUJ)")
+elseif Text== "معتز" or Text== "وزه" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس بلانك↯](https://t.me/VV_0M)")
 elseif Text== "مينا" or Text== "ماندو" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس بلانك↯](https://t.me/MaaaaNdo)")
-elseif Text== "سيطره" or Text== "احمد" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس بلانك↯](https://t.me/IUlUJ)")
 elseif Text== "فارس" or Text== "بوت حذف" then return  sendMsg(msg.chat_id_,msg.id_,"[الحمدلله يبرو انت اي الاخبار](https://t.me/DTeLebot)")
 elseif Text== "رفع غبي"  then return sendMsg(msg.chat_id_,msg.id_,"⋆أهلاً عزيزي\n⋆تم رفع الغبي بنجاح↯\n⋆تمت إضافته إلى قائمه الأغبياء\n☆")
 elseif Text== "تنزيل غبي"  then return sendMsg(msg.chat_id_,msg.id_,"⋆أهلاً عزيزي\n⋆تم تنزيل الغبي بنجاح↯\n⋆تمت الزاله من قائمه الأغبياء\n☆")
